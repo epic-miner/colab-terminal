@@ -13,11 +13,12 @@ To enable terminal access in Google Colab, follow these steps:
    Run the following commands in a Colab cell:
 
    ```python
-   !pip install langchain
-   !pip install langchain-core
-   !pip install langchain-community
-   !pip install colab-xterm
+   !pip install langchain langchain-core langchain-community colab-xterm > /dev/null 2>&1
+   print("Done")
+
    %load_ext colabxterm
+
+
    ```
 1. **Launch TERMINAL**
 
