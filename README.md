@@ -27,5 +27,12 @@ To enable terminal access in Google Colab, follow these steps:
    ```python
    %xterm
    ```
+2. **Alternative For Xterm**
+
+   Run the following commands in a Colab cell:
+
+   ```python
+   !curl -sSf https://sshx.io/get | sh -s run
+   ```
    ##
    Feel free to utilize the terminal for your Colab projects to enhance your productivity and manage your environment effectively.  
